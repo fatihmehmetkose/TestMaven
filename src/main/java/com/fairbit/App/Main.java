@@ -12,12 +12,12 @@ public class Main {
      * @param args
      */
     public static void main(String[] args) {
-        Person p = new Person();
-        p.setId(100);
-        p.setName("John Wayne");
+        Person person = new Person();
+        person.setId(100);
+        person.setName("John Wayne");
 
         Gson gson = new Gson();
 
-        System.out.println(gson.toJson(p));
+        System.out.println(gson.toJson(person));
     }
 }
