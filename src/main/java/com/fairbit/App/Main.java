@@ -18,6 +18,6 @@ public class Main {
 
         Gson gson = new Gson();
 
-        System.out.println(gson.toJson(person));
+        System.out.printf(" Json message : %s", gson.toJson(person));
     }
 }
